@@ -1,0 +1,141 @@
+{margin:0;padding:0}
+
+/* Calling Fonts */
+
+@font-face{
+	
+	font-family:"Lato-Black";
+	
+	
+	src: url("font/Lato-Black/Lato-Black.eot") format("eot"),
+	
+	url("font/Lato-Black/Lato-Black.woff") format("woff"),
+	
+	
+	
+	url("font/Lato-Black/Lato-Black.ttf") format("truetype"),
+	
+	
+	url("font/Lato-Black/Lato-Black.svg") format("svg");
+	
+	
+}
+
+/* Calling Fonts */
+
+
+
+.fix{ overflow:hidden;}
+
+
+.container{ max-width:960px;}
+
+.one{
+	background:url(images/bg-header.png) repeat-x;
+	
+}
+
+
+.two{
+	background:url(images/bg-body.jpg) repeat;
+	
+}
+
+a{
+		color:azure;
+		text-decoration:none;
+		padding:1px 12px;
+		display:block;
+		
+	}
+	
+	a:hover{
+		
+		text-decoration:none;
+	}
+
+
+.menu{ background:url(images/bg-navigation.gif) repeat-x ;}
+.menu ul li{ padding:1px 70px;  }
+
+/* .dropdown-menu{ position:absolute; left:-99999px;} */
+
+/* .menu ul li a{ position:relative;} */
+ .dropdown-menu a:hover{ background:blue;} 
+
+	p{
+		
+		text-align:justify;
+		font-size:14px;
+	}
+	
+	
+	body{
+		font-family:Lato-Black;
+	}
+	
+	
+	.searchbar input[type='submit']{
+		
+		    background: url(images/interface.png) no-repeat;
+
+		background-position: -446px -411px;
+    cursor: pointer;
+    width: 43px;
+	}
+	
+	
+		.searchbar input{ border:0; padding:0; margin:-2px;}
+		
+		
+h3{ font-size: 22px;color: #7a7a7a; font-family:arial;}
+	.body h3{ font-size: 24px; font-family:arial;}
+	
+	
+	.body_link {
+background: url(images/interface.png) no-repeat 0 -535px;
+    border-radius: 0 0 34px 0;	
+	}
+	
+	
+	.section{background:#e9e9e9;}
+	.section h2{background:url(images/border.png) repeat-x 0 37px;}
+	.section h2 span{font-size:24px; background:#e9e9e9; padding:1px 15px;}
+	
+	.foot a {
+		    padding: 10px 2px;
+    color: #2c5046;
+    font: caption;
+    font-size: 15px;
+    border-bottom: 0.5px solid darkgray;
+}
+
+.social a {
+		   display:inline;
+    color: black;
+    
+    border-bottom: none;
+}
+
+.foot .first a {
+	display:inline-block;
+	cursor:auto;
+		    padding: 10px 6px;
+    color: #2c5046;
+    font: caption;
+    font-size: 15px;
+    border-bottom: none;
+}
+
+.current{ color:navy;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
